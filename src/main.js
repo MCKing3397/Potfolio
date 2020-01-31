@@ -10,4 +10,4 @@ new Vue({
 
 new Vue({
   render: h => h(Header),
-}).$mount('#Header')
+}).$mount('#vue_header')
