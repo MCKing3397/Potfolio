@@ -1,7 +1,5 @@
 <template>
-  <div id="vue_header">
-    <Header title="Michael King - Developer"/>
-  </div>
+    <Header id="vue_header" title="Michael King - Developer"/>
 </template>
 
 <script>
