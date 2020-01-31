@@ -8,7 +8,7 @@
   <link href="/css/app.1b3c6512.css" rel="preload" as="style">
   <link href="/js/app.bac73e92.js" rel="preload" as="script">
   <link href="/js/chunk-vendors.e4831489.js" rel="preload" as="script">
-  <link href="/css/app.1b3c6512.css" rel="stylesheet"
+  <link href="/css/app.1b3c6512.css" rel="stylesheet">
 </head>
 </template>
 
