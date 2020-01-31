@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Header from './Header.vue'
+import Header from './Head.vue'
 
 Vue.config.productionTip = false
 
