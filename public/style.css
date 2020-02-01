@@ -5,7 +5,7 @@
 #top_hero {
 	border-bottom-right-radius: 25%;
 	border-bottom-left-radius: 25%;
-	background-color: #112380;
 	color: #fff;
+	background: SVG_Header.svg;
 }
 
