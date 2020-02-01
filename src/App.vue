@@ -13,7 +13,7 @@ import Navbar from './components/page_top.vue'
 export default {
   name: 'app',
   components: {
-    Navbar
+    Navbar,
     HelloWorld
   }
 }
