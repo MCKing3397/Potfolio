@@ -73,9 +73,3 @@ export default {
   name: 'Navbar',
 }
 </script>
-
-<style>
-    figure{
-        margin: auto;
-    }
-</style>

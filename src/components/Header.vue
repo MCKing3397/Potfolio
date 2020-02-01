@@ -6,6 +6,7 @@
   <link rel="icon" href="<%= BASE_URL %>favicon.ico">
   <title>{{ title }}</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 </template>
 
