@@ -1,6 +1,6 @@
 <template>
   <div class="page_top">
-    <section class="hero is-primary is-medium">
+    <section class="hero is-medium" id="top_hero">
   <!-- Hero head: will stick at the top -->
   <div class="hero-head">
     <nav class="navbar">
@@ -51,7 +51,7 @@
 
   <!-- Hero footer: will stick at the bottom -->
   <div class="hero-foot">
-    <nav class="tabs">
+    <!--nav class="tabs">
       <div class="container">
         <ul>
           <li class="is-active"><a>Overview</a></li>
@@ -62,7 +62,7 @@
           <li><a>Layout</a></li>
         </ul>
       </div>
-    </nav>
+    </nav-->
   </div>
 </section>
   </div>
