@@ -42,7 +42,7 @@
 
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
-    <div class="container has-text-centered">
+    <div class="container">
       <figure class="image is-128x128">
         <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
       </figure>
