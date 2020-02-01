@@ -43,7 +43,7 @@
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
     <div class="container has-text-centered">
-      <figure class="image title image_center is-128x128">
+      <figure class="image is-128x128">
         <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
       </figure>
     </div>
@@ -74,8 +74,8 @@ export default {
 }
 </script>
 
-<style>
-    .image_center{
+<style scoped>
+    figure{
         margin: auto;
     }
 </style>
