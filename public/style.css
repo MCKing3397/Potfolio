@@ -6,6 +6,10 @@
 	border-bottom-right-radius: 25%;
 	border-bottom-left-radius: 25%;
 	color: #fff;
-	background: SVG_Header.svg;
+    background: url(SVG_Header.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #112380;
 }
 
