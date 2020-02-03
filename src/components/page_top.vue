@@ -6,7 +6,7 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
-          <h1 class="navbar-item">
+          <h1 class="navbar-item is-white is-1">
             Michael King
           </h1>
         </div>
