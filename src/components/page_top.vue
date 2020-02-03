@@ -2,24 +2,25 @@
   <div class="page_top">
     <section class="hero is-medium" id="top_hero">
   <!-- Hero head: will stick at the top -->
-  <div class="hero-head">
-    <nav class="navbar">
-      <div class="container">
-        <div class="navbar-brand">
-          <h1 class="navbar-item title has-text-white is-1">
-            Michael King
-          </h1>
-        </div>
-      </div>
-    </nav>
-  </div>
 
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
-    <div class="container">
-      <figure class="image is-128x128">
-        <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-      </figure>
+    <div class="container columns">
+        <div class="column">
+          <h1 class="title has-text-white is-1">
+            Michael King
+          </h1>
+        </div>
+        <div clas="column">
+          <figure class="image is-128x128">
+            <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+          </figure>
+        </div>
+        <div class="column">
+          <h1 class="title has-text-white is-1">
+            Web Developer
+          </h1>
+        </div>
     </div>
   </div>
 
