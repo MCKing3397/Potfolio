@@ -7,7 +7,7 @@
   <div class="hero-body">
     <div class="container columns">
         <div class="column">
-          <h1 class="title has-text-white is-1">
+          <h1 class="title has-text-white has-text-centered is-1">
             Michael King
           </h1>
         </div>
@@ -17,7 +17,7 @@
           </figure>
         </div>
         <div class="column">
-          <h1 class="title has-text-white is-1">
+          <h1 class="title has-text-white has-text-centered is-1">
             Web Developer
           </h1>
         </div>
