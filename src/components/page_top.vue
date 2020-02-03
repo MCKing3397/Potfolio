@@ -5,13 +5,13 @@
 
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
-    <div class="container columns">
+    <div class="columns">
         <div class="column">
           <h1 class="title has-text-white has-text-centered is-1">
             Michael King
           </h1>
         </div>
-        <div clas="column">
+        <div class="column">
           <figure class="image is-128x128">
             <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
           </figure>
