@@ -1,7 +1,6 @@
 <template>
-  <div class="databox tile columns is-centered is-ancestor">
-    <div class="tile is-parent"> 
-
+  <div class="databox tile is-ancestor">
+    <div class="tile is-parent columns is-centered"> 
       <article class="tile is-child is-4 box is-radiusless">
         <p class="title">{{ title }}</p>
       </article>
