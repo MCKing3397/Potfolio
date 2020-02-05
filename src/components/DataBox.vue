@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: DataBox',
+  name: DataBox,
   props: {
     msg: String,
     title: String
