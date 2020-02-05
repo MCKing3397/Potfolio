@@ -1,6 +1,6 @@
 <template>
-  <div class="databox columns is-gapless is-vcentered tile is-ancestor">
-    <div class="column is-4 is-offset-4 tile is-parent">
+  <div class="databox columns is-gapless is-centered is-vcentered tile is-ancestor">
+    <div class="column is-4 tile is-parent">
       <article class="tile box is-child">
         <p class="title">{{ title }}</p>
       </article>
