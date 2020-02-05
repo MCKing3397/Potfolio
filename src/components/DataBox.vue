@@ -1,5 +1,5 @@
 <template>
-  <div class="databox columns is-gapless is-centered is-vcentered tile is-ancestor">
+  <div class="databox columns is-gapless is-full-height is-centered is-vcentered">
     <div class="column is-4">
       <div class="card">
         <div class="card-content">

@@ -13,6 +13,6 @@
     background-color: #112380;
 }
 
-.databox article{
+.columns.is-full-height .column{
 	height: 100%;
 }
