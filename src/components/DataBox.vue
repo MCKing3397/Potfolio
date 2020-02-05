@@ -1,18 +1,14 @@
 <template>
-  <div class="databox columns is-gapless is-full-height is-centered is-vcentered">
-    <div class="column is-4">
-      <div class="card">
-        <div class="card-content">
-          <p class="title">{{ title }}</p>
-        </div>
-      </div>
-    </div>
-    <div class="column is-4">
-      <div class="card">
-        <div class="card-content">
-          <p class="content">{{ msg }}</p>
-        </div>
-      </div>
+  <div class="databox tile is-ancestor">
+    <div class="tile is-parent"> 
+
+      <article class="tile is-child is-4 is-offset-4 box">
+        <p class="title">{{ title }}</p>
+      </article>
+
+      <article class="tile is-4 is-child box">
+        <p class="content">{{ msg }}</p>
+      </article>
     </div>
   </div>
 </template>
