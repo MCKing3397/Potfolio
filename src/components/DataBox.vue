@@ -1,16 +1,18 @@
 <template>
   <div class="databox columns is-gapless is-centered is-vcentered tile is-ancestor">
-    <div class="column is-4 tile is-parent">
-      <article class="tile box is-child">
-        <p class="title">{{ title }}</p>
-      </article>
-    </div>
-    <div class="column is-4 tile is-parent">
-      <article class="tile box is-child">
-        <div class="content">
-          <p>{{ msg }}</p>
+    <div class="column is-4">
+      <div class="card">
+        <div class="card-content">
+          <p class="title">{{ title }}</p>
         </div>
-      </article>
+      </div>
+    </div>
+    <div class="column is-4">
+      <div class="card">
+        <div class="card-content">
+          <p class="content">{{ msg }}</p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
