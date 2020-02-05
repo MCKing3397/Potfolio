@@ -1,12 +1,12 @@
 <template>
-  <div class="databox is-ancestor tile">
-    <div class="tile is-parent is-gapless">
-      <article class="tile is-child box">
+  <div class="databox columns is-gapless">
+    <div class="column is-4 is-offset-4">
+      <article class="box">
         <p class="title">{{ title }}</p>
       </article>
     </div>
-    <div class="tile is-parent is-gapless">
-      <article class="tile is-child box">
+    <div class="column is-4">
+      <article class="box">
         <div class="content">
           <p>{{ msg }}</p>
         </div>
