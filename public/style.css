@@ -31,7 +31,7 @@
 	color: #fff;
 }
 
-.has-divider:after{
+.has-divider::after{
 	display: block;
     position: relative;
     border-top: .1rem solid #dbdbdb;
