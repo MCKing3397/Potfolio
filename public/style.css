@@ -21,16 +21,22 @@
 	padding: 1rem 0rem;
 }
 
-.databox:nth-child(odd) article:last-of-type{
+#app .databox:nth-of-type(odd) article:first-of-type{
 	background-color: #112380;
 	color: #fff;
 }
 
-.databox:nth-child(even) article:first-of-type{
+#app .databox:nth-of-type(even) article:first-of-type{
 	background-color: #FF6900;
 	color: #fff;
 }
 
+#app .databox:nth-of-type(odd) .is-parent{
+	flex-direction: row-reverse;
+}
+
+
+/*
 .has-divider::after{
 	display: block;
     position: relative;
@@ -40,7 +46,7 @@
     text-align: center;
 }
 
-/*.is-divider[data-content]::after{
+.is-divider[data-content]::after{
 	background: #fff;
 	color: #b5b5b5;
 	content: attr(data-content);
