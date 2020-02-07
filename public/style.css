@@ -19,8 +19,10 @@
 
 .databox:nth-child(odd) article:last-of-type{
 	background-color: #112380;
+	color: #fff;
 }
 
 .databox:nth-child(even) article:first-of-type{
-	background-color: ##FF6900;
+	background-color: #FF6900;
+	color: #fff;
 }
