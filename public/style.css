@@ -17,6 +17,10 @@
 	height: 100%;
 }
 
+.databox{
+	padding: 1rem 0rem;
+}
+
 .databox:nth-child(odd) article:last-of-type{
 	background-color: #112380;
 	color: #fff;
