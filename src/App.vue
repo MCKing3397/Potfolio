@@ -13,17 +13,36 @@
       level: 10
     },
     {
-      id: 1,
+      id: 2,
       skill:'CSS',
       level: 9
     },
     {
-      id: 1,
+      id: 3,
       skill:'PHP',
       level: 8
     }
-    ]" title="Code Based Skills"/>
-    <DataBox v-bind:skills="[4, 5, 6]" title="Frameworks"/>
+    ]"
+    title="Code Based Skills"/>
+    
+    <DataBox v-bind:skills="[
+    {
+      id: 1,
+      skill:'HTML',
+      level: 10
+    },
+    {
+      id: 2,
+      skill:'CSS',
+      level: 9
+    },
+    {
+      id: 3,
+      skill:'PHP',
+      level: 8
+    }
+    ]"
+    title="Frameworks"/>
   </div>
 </template>
 
