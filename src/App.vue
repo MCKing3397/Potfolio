@@ -6,7 +6,23 @@
     <div class="has-divider has-text-centered title"><h2>My Skills</h2></div>
 
 
-    <DataBox v-bind:skills="[1, 2, 3]" title="Code Based Skills"/>
+    <DataBox v-bind:skills="[
+    {
+      id: 1,
+      skill:'HTML',
+      level: 10
+    },
+    {
+      id: 1,
+      skill:'CSS',
+      level: 9
+    },
+    {
+      id: 1,
+      skill:'PHP',
+      level: 8
+    }
+    ]" title="Code Based Skills"/>
     <DataBox v-bind:skills="[4, 5, 6]" title="Frameworks"/>
   </div>
 </template>
