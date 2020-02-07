@@ -5,8 +5,9 @@
 
     <div class="has-divider has-text-centered title"><h2>My Skills</h2></div>
 
-    
-    <DataBox msg="Welcome to Your Vue.js App" title="A little About Me"/>
+
+    <DataBox msg="Welcome to Your Vue.js App" title="Code Based Skills"/>
+    <DataBox msg="Welcome to Your Vue.js App" title="Frameworks"/>
   </div>
 </template>
 
