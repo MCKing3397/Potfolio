@@ -30,3 +30,25 @@
 	background-color: #FF6900;
 	color: #fff;
 }
+
+.has-divider:after{
+	display: block;
+    position: relative;
+    border-top: .1rem solid #dbdbdb;
+    height: .1rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+/*.is-divider[data-content]::after{
+	background: #fff;
+	color: #b5b5b5;
+	content: attr(data-content);
+	display: inline-block;
+	font-size: .75rem;
+	padding: .4rem .8rem;
+	-webkit-transform: translateY(-1.1rem);
+	-ms-transform: translateY(-1.1rem);
+	transform: translateY(-1.1rem);
+	text-align: center;
+}*/

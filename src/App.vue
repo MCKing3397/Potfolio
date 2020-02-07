@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <Navbar />
-    <img alt="Vue logo" src="./assets/logo.png">
     <DataBox msg="Welcome to Your Vue.js App" title="A little About Me"/>
+
+    <div class="has-divider has-text-centered title"><h2>My Skills</h2></div>
   </div>
 </template>
 
