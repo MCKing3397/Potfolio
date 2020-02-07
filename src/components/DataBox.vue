@@ -7,7 +7,7 @@
 
       <article class="tile is-child is-4 box is-radiusless">
         <p class="content" v-if="msg">{{ msg }}</p>
-        <p class="content" v-else><ul><li v-for="item in skills">{{ item }}</li></ul></p>
+        <p class="content" v-else><ul><li> "test" </li></ul></p>
       </article>
     </div>
   </div>
