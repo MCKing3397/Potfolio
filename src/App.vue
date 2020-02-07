@@ -6,8 +6,8 @@
     <div class="has-divider has-text-centered title"><h2>My Skills</h2></div>
 
 
-    <DataBox skills="Welcome to Your Vue.js App" title="Code Based Skills"/>
-    <DataBox skills="Welcome to Your Vue.js App" title="Frameworks"/>
+    <DataBox v-bind:skills="[1, 2, 3]" title="Code Based Skills"/>
+    <DataBox v-bind:skills="[4, 5, 6]" title="Frameworks"/>
   </div>
 </template>
 

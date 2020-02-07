@@ -20,7 +20,7 @@
       </article>
 
       <article class="tile is-child is-4 box is-radiusless">
-        <p class="content">{{ skills }}</p>
+        <p class="content"><ul><li v-for="item in skills">{{ item }}</li></ul></p>
       </article>
     </div>
   </div>
