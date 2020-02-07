@@ -16,3 +16,11 @@
 .columns.is-full-height .column{
 	height: 100%;
 }
+
+.databox:nth-child(odd) article:last-of-type{
+	background-color: #112380;
+}
+
+.databox:nth-child(even) article:first-of-type{
+	background-color: ##FF6900;
+}

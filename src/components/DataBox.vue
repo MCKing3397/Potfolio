@@ -5,7 +5,7 @@
         <p class="title">{{ title }}</p>
       </article>
 
-      <article class="tile is-4 is-child box is-radiusless is-vcentered">
+      <article class="tile is-child is-4 box is-radiusless">
         <p class="content">{{ msg }}</p>
       </article>
     </div>
