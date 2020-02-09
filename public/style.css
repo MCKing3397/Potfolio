@@ -36,9 +36,9 @@
 }
 
 progress[value]::-webkit-progress-bar {
-  background-color: #FFF;
+  background-color: transparent;
 }
 
 progress::-moz-progress-bar {
-	background: #FFF;
+	background: transparent;
 }
