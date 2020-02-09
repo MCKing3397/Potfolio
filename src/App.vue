@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Navbar />
-    <DataBox msg="Welcome to Your Vue.js App" title="A little About Me"/>
+    <DataBox 
+    msg="My name is Michael King and I am a Front-End web developer that is interested in and enjoys working with UI/UX Design." 
+    title="A little About Me"/>
 
     <div class="has-divider has-text-centered title"><h2>My Skills</h2></div>
 
@@ -15,12 +17,22 @@
     {
       id: 2,
       skill:'CSS',
-      level: 9
+      level: 10
     },
     {
       id: 3,
       skill:'PHP',
       level: 8
+    },
+    {
+      id: 4,
+      skill:'Javascript',
+      level: 8
+    },
+    {
+      id: 5,
+      skill:'Asp.Net',
+      level: 4
     }
     ]"
     title="Code Based Skills"/>
@@ -28,18 +40,18 @@
     <DataBox v-bind:skills="[
     {
       id: 1,
-      skill:'HTML',
+      skill:'Bootstrap',
       level: 10
     },
     {
       id: 2,
-      skill:'CSS',
-      level: 9
+      skill:'jQuery',
+      level: 8
     },
     {
       id: 3,
-      skill:'PHP',
-      level: 8
+      skill:'Vue.js',
+      level: 6
     }
     ]"
     title="Frameworks"/>

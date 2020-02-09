@@ -46,3 +46,7 @@ progress::-moz-progress-bar {
 .databox ul{
 	list-style-type: none;
 }
+
+.align-center{
+	align-items: center;
+}
