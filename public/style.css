@@ -42,3 +42,7 @@ progress[value]::-webkit-progress-bar {
 progress::-moz-progress-bar {
 	background: transparent;
 }
+
+.databox ul{
+	list-style-type: none;
+}
