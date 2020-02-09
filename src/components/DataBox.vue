@@ -2,7 +2,7 @@
   <div class="databox tile is-ancestor">
     <div class="tile is-parent columns is-centered"> 
       <article class="tile is-child is-4 box is-radiusless">
-        <p class="title has-text-white">{{ title }}</p>
+        <p class="title">{{ title }}</p>
       </article>
 
       <article class="tile is-child is-4 box is-radiusless">

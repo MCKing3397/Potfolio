@@ -34,3 +34,11 @@
 #app .databox:nth-of-type(odd) .is-parent{
 	flex-direction: row-reverse;
 }
+
+progress[value]::-webkit-progress-bar {
+  background-color: #FFF;
+}
+
+progress::-moz-progress-bar {
+	background: #FFF;
+}
