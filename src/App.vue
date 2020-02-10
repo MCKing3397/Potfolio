@@ -11,22 +11,22 @@
     <DataBox v-bind:skills="[
     {
       id: 1,
-      skill:'HTML',
+      skill:'HTML/CSS',
       level: 10
     },
     {
       id: 2,
-      skill:'CSS',
-      level: 10
-    },
-    {
-      id: 3,
       skill:'PHP',
       level: 8
     },
     {
-      id: 4,
+      id: 3,
       skill:'Javascript',
+      level: 8
+    },
+    {
+      id: 4,
+      skill:'MySQL',
       level: 8
     },
     {
@@ -50,11 +50,40 @@
     },
     {
       id: 3,
+      skill:'Bulma',
+      level: 7
+    },
+    {
+      id: 4,
       skill:'Vue.js',
       level: 6
     }
     ]"
     title="Frameworks"/>
+    
+    <DataBox v-bind:skills="[
+    {
+      id: 1,
+      skill:'SEO',
+      level: 9
+    },
+    {
+      id: 2,
+      skill:'Adobe XD',
+      level: 8
+    },
+    {
+      id: 3,
+      skill:'UX/UI Design',
+      level: 7
+    },
+    {
+      id: 4,
+      skill: 'Adobe Creative Cloud/Photoshop',
+      level: 5
+    }
+    ]"
+    title="Other Skills"/>
   </div>
 </template>
 
