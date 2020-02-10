@@ -50,3 +50,7 @@ progress::-moz-progress-bar {
 .align-center{
 	align-items: center;
 }
+
+.tile p.title{
+	margin: auto;
+}
