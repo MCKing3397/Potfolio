@@ -3,14 +3,19 @@
 }
 
 #top_hero {
-	border-bottom-right-radius: 25%;
-	border-bottom-left-radius: 25%;
 	color: #fff;
     background: url(header_outline.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-color: #112380;
+}
+
+#top_hero .page_top-bottom{
+	background-color: #FF6900;
+	position: absolute;
+	left: 30%;
+	bottom: 0;
+	right: 30%;
 }
 
 .columns.is-full-height .column{
