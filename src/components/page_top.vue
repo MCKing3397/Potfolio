@@ -1,27 +1,30 @@
 <template>
   <div class="page_top">
-    <section class="hero is-medium" id="top_hero">
+    <section class="hero is-small" id="top_hero">
   <!-- Hero head: will stick at the top -->
 
-  <!-- Hero content: will be in the middle -->
-  <div class="hero-body">
+  <div class="hero-head">
     <div class="columns">
         <div class="column">
           <h1 class="title has-text-white has-text-centered is-1">
             Michael King
           </h1>
+          <h2 class="title has-text-white has-text-centered is-2">
+            Web Developer
+          </h2>
         </div>
+        <div class="column">
+        </div>
+    </div>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
         <div class="column">
           <figure class="image is-128x128">
             <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
           </figure>
         </div>
-        <div class="column">
-          <h1 class="title has-text-white has-text-centered is-1">
-            Web Developer
-          </h1>
-        </div>
-    </div>
   </div>
 
   <!-- Hero footer: will stick at the bottom -->
