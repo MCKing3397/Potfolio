@@ -47,7 +47,7 @@
         <a href="#skills" v-smooth-scroll >
           <div id="skills_scroll">
             <p class="has-text-white">View my skills</p>
-            <svg xmlns="http://www.w3.org/2000/svg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="42.099" viewBox="0 0 70 42.099">
               <path id="arrow" d="M67.833,8.6,41,34.77,14.167,8.6,6,16.565,41,50.7,76,16.565Z" transform="translate(-6 -8.6)" fill="#fff" fill-rule="evenodd"/>
             </svg>
           </div>

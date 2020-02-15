@@ -76,5 +76,5 @@ progress::-moz-progress-bar {
 
 #skills_scroll{
 	margin: 1rem auto;
-	line-height: 1.5rem;
+	width: 15%;
 }
