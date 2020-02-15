@@ -43,9 +43,8 @@
       </div>
 
       <!-- Hero footer: will stick at the bottom -->
-      <div class="hero-foot>
-
-        <a href="#skills" v-smooth-scroll>
+      <div class="hero-foot">
+        <a href="#skills" v-smooth-scroll >
           <div id="skills_scroll">
             <p class="has-text-white">View my skills</p>
             <svg xmlns="http://www.w3.org/2000/svg">
