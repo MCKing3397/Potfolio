@@ -77,4 +77,14 @@ progress::-moz-progress-bar {
 #skills_scroll{
 	margin: 1rem auto;
 	width: 15%;
+	text-align: center;
+}
+
+#skills_scroll p{
+	margin-bottom: 0.75rem;
+}
+
+#skills_scroll:hover svg{
+	transition: 500ms linear;
+	margin-bottom: -10px;
 }
