@@ -2,22 +2,24 @@
 	margin: auto;
 }
 
-#top_hero {
+#top_hero {/*
 	color: #fff;
     background: url(header_outline.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom;*/
+    background-color: #112380;
+    color: #fff;
 }
 
-#top_hero .page_top-bottom{
+#top_hero .page_top-bottom{/*
 	background-color: #FF6900;
     position: absolute;
     left: 25%;
     bottom: 0;
     right: 25%;
     z-index: -1;
-    top: 0;
+    top: 0;*/
 }
 
 .columns.is-full-height .column{

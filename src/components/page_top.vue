@@ -1,6 +1,6 @@
 <template>
   <div class="page_top is-relative">
-    <section class="hero is-small" id="top_hero">
+    <section class="hero is-fullheight" id="top_hero">
       <!-- Hero head: will stick at the top -->
 
       <div class="hero-head">
