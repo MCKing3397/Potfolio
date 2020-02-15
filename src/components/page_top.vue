@@ -4,7 +4,7 @@
       <!-- Hero head: will stick at the top -->
 
       <div class="hero-head">
-        <div class="columns">
+        <!--div class="columns">
             <div class="column">
               <h1 class="title has-text-white has-text-centered is-1">
                 Michael King
@@ -15,16 +15,29 @@
             </div>
             <div class="column">
             </div>
-        </div>
+        </div-->
       </div>
 
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
+        <div class="columns">
             <div class="column">
-              <figure class="image is-128x128">
-                <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+              <figure class="image">
+                <img class="header_image" src="https://bulma.io/images/placeholders/128x128.png">
               </figure>
             </div>
+            <div class="column">
+              <div id="header_about">
+                <h2>Want to know some about me?</h2>
+                <p>My name is <span id="header_name">Michael King</span>.</p>
+                <p>I create and design responsive websites, from the UX/design phase to the front-end, with a few back-end touches.</p>
+
+                <p>I am an aspiring front-end developer and UX designer. I am currently studying Business Information Systems at Mississippi State University and can be found using my skills to create websites for Mississippi State's College of Forest Resources as a student web developer.</p>
+
+                <p>Although I have experience in back-end as well as the front-end, my goal moving forward is to follow my passion as a front-end developer.</p>
+              </div>
+            </div>
+        </div>
       </div>
 
       <!-- Hero footer: will stick at the bottom -->
@@ -42,7 +55,6 @@
           </div>
         </nav-->
       </div>
-      <div class="page_top-bottom"></div>
     </section>
   </div>
 </template>
