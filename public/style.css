@@ -85,6 +85,6 @@ progress::-moz-progress-bar {
 }
 
 #skills_scroll:hover svg{
-	transition: 500ms linear;
-	margin-bottom: -10px;
+	/*transition: 500ms linear;
+	margin-bottom: -10px;*/
 }
