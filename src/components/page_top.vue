@@ -29,8 +29,8 @@
               </div>
               <div class="column">
                 <div id="header_about">
-                  <h1 class="is-size-1">Want to know some about me?</h1>
-                  <p>My name is <span id="header_name" class="has-text-weight-semibold is-size-3">Michael King</span>.</p>
+                  <h1 class="is-size-2">Want to know some about me?</h1>
+                  <p>My name is <span id="header_name" class="has-text-weight-semibold is-size-4 is-italic">Michael King</span>.</p>
                   <p>I create and design responsive websites, from the UX/design phase to the front-end, with a few back-end touches.</p>
 
                   <p>I am an aspiring front-end developer and UX designer. I am currently studying Business Information Systems at Mississippi State University and can be found using my skills to create websites for Mississippi State's College of Forest Resources as a student web developer.</p>
