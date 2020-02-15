@@ -63,3 +63,9 @@ progress::-moz-progress-bar {
 .tile p.title{
 	margin: auto;
 }
+
+#header_image{
+	margin: auto;
+	width: 50%;
+	border-radius: 25%;
+}
