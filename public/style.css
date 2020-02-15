@@ -73,3 +73,8 @@ progress::-moz-progress-bar {
 #header_about p{
 	padding-top: 1rem;
 }
+
+#skill_scroll{
+	margin: 1rem auto;
+	line-height: 1.5rem;
+}

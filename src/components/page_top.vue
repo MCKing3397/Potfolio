@@ -43,13 +43,15 @@
       </div>
 
       <!-- Hero footer: will stick at the bottom -->
-      <div class="hero-foot has-text-centered">
+      <div class="hero-foot>
 
         <a href="#skills" v-smooth-scroll>
-          <p class="has-text-white">View my skills</p>
-          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="50%" viewBox="0 0 70 42.099">
-            <path id="arrow" d="M67.833,8.6,41,34.77,14.167,8.6,6,16.565,41,50.7,76,16.565Z" transform="translate(-6 -8.6)" fill="#fff" fill-rule="evenodd"/>
-          </svg>
+          <div id="skills_scroll">
+            <p class="has-text-white">View my skills</p>
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <path id="arrow" d="M67.833,8.6,41,34.77,14.167,8.6,6,16.565,41,50.7,76,16.565Z" transform="translate(-6 -8.6)" fill="#fff" fill-rule="evenodd"/>
+            </svg>
+          </div>
         </a> 
         <!--nav class="tabs">
           <div class="container">
