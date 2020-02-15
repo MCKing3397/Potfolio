@@ -24,7 +24,7 @@
           <div class="columns">
               <div class="column">
                 <figure class="image">
-                  <img class="header_image" src="https://bulma.io/images/placeholders/480x600.png">
+                  <img id="header_image" src="https://bulma.io/images/placeholders/480x600.png">
                 </figure>
               </div>
               <div class="column">
