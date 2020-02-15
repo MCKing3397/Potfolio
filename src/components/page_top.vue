@@ -44,6 +44,8 @@
 
       <!-- Hero footer: will stick at the bottom -->
       <div class="hero-foot">
+
+        <a href="#skills" v-smooth-scroll>View my skills</a> 
         <!--nav class="tabs">
           <div class="container">
             <ul>
