@@ -86,7 +86,6 @@
     title="Other Skills"/>
 
   </div>
-  <Footer />
 </template>
 
 <script>
