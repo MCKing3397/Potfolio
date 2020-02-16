@@ -98,7 +98,8 @@ export default {
   name: 'app',
   components: {
     Navbar,
-    DataBox
+    DataBox,
+    Contact
   }
 }
 </script>
