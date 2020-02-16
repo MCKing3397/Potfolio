@@ -86,18 +86,22 @@
     title="Other Skills"/>
 
   </div>
+
+  <Footer />
 </template>
 
 <script>
 import DataBox from './components/DataBox.vue'
 import Navbar from './components/page_top.vue'
 //import Contact from './components/contact.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
   components: {
     Navbar,
     DataBox,
+    Footer
     //Contact
   }
 }

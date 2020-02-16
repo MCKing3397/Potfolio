@@ -14,7 +14,3 @@ new Vue({
 new Vue({
   render: h => h(Header),
 }).$mount('#vue_header')
-
-new Vue({
-  render: h => h(Footer),
-}).$mount('#vue_footer')
