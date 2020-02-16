@@ -21,8 +21,8 @@
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container">
-          <div class="columns">
-              <div class="column">
+          <div class="columns is-desktop">
+              <div class="column align-middle is-flex">
                 <!--figure class="image">
                   <img id="header_image" src="https://bulma.io/images/placeholders/480x600.png">
                 </figure-->
@@ -30,7 +30,7 @@
               </div>
               <div class="column">
                 <div id="header_about">
-                  <h1 class="is-size-2 has-text-centered">So you want to know some about me?</h1>
+                  <h1 class="is-size-2 has-text-centered has-text-left-desktop">So you want to know some about me?</h1>
                   <p>My name is <span id="header_name" class="has-text-weight-semibold is-size-4 is-italic">Michael King</span>.</p>
                   <p>I create and design responsive websites, from the UX/design phase to the front-end, with a few back-end touches.</p>
 
