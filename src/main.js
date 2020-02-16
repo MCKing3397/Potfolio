@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import Header from './Head.vue'
+import Footer from './components/Footer.vue'
 import vueSmoothScroll from 'vue2-smooth-scroll'
 Vue.use(vueSmoothScroll)
 
@@ -13,3 +14,7 @@ new Vue({
 new Vue({
   render: h => h(Header),
 }).$mount('#vue_header')
+
+new Vue({
+  render: h => h(Footer),
+}).$mount('#vue_feader')
