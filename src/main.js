@@ -17,4 +17,4 @@ new Vue({
 
 new Vue({
   render: h => h(Footer),
-}).$mount('#vue_feader')
+}).$mount('#vue_footer')
