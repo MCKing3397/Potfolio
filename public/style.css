@@ -98,3 +98,27 @@ progress::-moz-progress-bar {
 .has-divider{
 	padding: 1rem;
 }
+
+.has-divider::before {
+    content: '';
+    background: white;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: 40%;
+    top: 0;
+    z-index: -1;
+}
+
+.has-divider::after {
+    content: '';
+    width: 90%;
+    position: absolute;
+    height: 1px;
+    left: 5%;
+    top: 50%;
+    background: blue;
+    border: blue 1px solid;
+    z-index: -2;
+
+}
