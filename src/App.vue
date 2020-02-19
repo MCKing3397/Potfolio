@@ -5,7 +5,7 @@
     msg="My name is Michael King and I am a Front-End web developer that is interested in and enjoys working with UI/UX Design." 
     title="A little About Me"/-->
 
-    <div class="has-divider has-text-centered title" id="skills"><h2>My Skills</h2></div>
+    <div class="has-divider has-text-centered title" id="skills"><span>My Skills</span></div>
 
 
     <DataBox v-bind:skills="[

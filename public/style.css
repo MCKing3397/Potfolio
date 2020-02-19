@@ -100,25 +100,17 @@ progress::-moz-progress-bar {
 	position: relative;
 }
 
-.has-divider::before {
-    content: '';
-    background: #fff;
-    width: 20%;
-    height: 100%;
-    position: absolute;
-    left: 40%;
-    top: 0;
-    z-index: -1;
+.has-divider span{
+	padding: 0rem 2rem;
+	background: #fff;
 }
 
-.has-divider::after {
+.has-divider::before {
     content: '';
     width: 90%;
     position: absolute;
-    height: 1px;
     left: 5%;
-    top: 50%;
+    top: 49.5%;
+    bottom: 49.5%;
     background: #FF6900;
-    z-index: -2;
-
 }
