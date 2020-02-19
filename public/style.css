@@ -101,7 +101,7 @@ progress::-moz-progress-bar {
 
 .has-divider::before {
     content: '';
-    background: white;
+    background: #fff;
     width: 20%;
     height: 100%;
     position: absolute;
@@ -117,8 +117,7 @@ progress::-moz-progress-bar {
     height: 1px;
     left: 5%;
     top: 50%;
-    background: blue;
-    border: blue 1px solid;
+    background: #FF6900;
     z-index: -2;
 
 }
