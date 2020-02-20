@@ -110,7 +110,8 @@ progress::-moz-progress-bar {
     width: 90%;
     position: absolute;
     left: 5%;
-    top: 49.5%;
-    bottom: 49.5%;
+    top: calc(50% - 1px);
     background: #FF6900;
+    height: 2px;
+    z-index: -1;
 }
