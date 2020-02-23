@@ -1,6 +1,6 @@
 <template>
   <div class="page_top is-relative">
-    <section class="hero is-fullheight" id="top_hero">
+    <section class="hero is-fullheight is-info" id="top_hero">
       <!-- Hero head: will stick at the top -->
 
       <div class="hero-head">
@@ -17,10 +17,10 @@
             </div>
             <div id="navbarLinks" class="navbar-menu">
               <div class="navbar-end">
-                <a class="navbar-item" ahref="#skills">
+                <a class="navbar-item" ahref="#skills" v-smooth-scroll >
                   Skills
                 </a>
-                <a class="navbar-item" ahref="#work">
+                <a class="navbar-item" ahref="#work" v-smooth-scroll >
                   Previous Work
                 </a>
                 <span class="navbar-item">
