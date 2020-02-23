@@ -85,6 +85,9 @@
     ]"
     title="Other Skills"/>
 
+    <div class="has-divider has-text-centered title" id="work"><span>Previous Work</span></div>
+
+
   </div>
 </template>
 
