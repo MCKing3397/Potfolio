@@ -17,14 +17,14 @@
             </div>
             <div id="navbarLinks" class="navbar-menu">
               <div class="navbar-end">
-                <a class="navbar-item" ahref="#skills" v-smooth-scroll >
+                <a class="navbar-item" href="#skills" v-smooth-scroll >
                   Skills
                 </a>
-                <a class="navbar-item" ahref="#work" v-smooth-scroll >
+                <a class="navbar-item" href="#work" v-smooth-scroll >
                   Previous Work
                 </a>
                 <span class="navbar-item">
-                  <a class="button is-success is-inverted" target="_blank" ahref="https://www.github.com/mcking3397">
+                  <a class="button is-success is-inverted" target="_blank" href="https://www.github.com/mcking3397">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
