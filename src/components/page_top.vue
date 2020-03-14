@@ -1,6 +1,6 @@
 <template>
   <div class="page_top is-relative">
-    <section class="hero is-fullheight is-info" id="top_hero">
+    <section class="hero is-fullheight" id="top_hero">
       <!-- Hero head: will stick at the top -->
 
       <div class="hero-head">
@@ -25,7 +25,7 @@
                 </a>
                 <span class="navbar-item">
                   <a class="button is-success is-inverted" target="_blank" href="https://www.github.com/mcking3397">
-                    <font-awesome-icon :icon="['fab', 'github']" />
+                    <font-awesome-icon :icon="['fab', 'github']" class="icon"/>
                     <span>My Github</span>
                   </a>
                 </span>

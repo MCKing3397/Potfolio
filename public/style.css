@@ -115,3 +115,9 @@ progress::-moz-progress-bar {
     height: 2px;
     z-index: -1;
 }
+
+.icon{
+	height: 100%;
+	color: #000;
+	margin-right: .25rem;
+}
