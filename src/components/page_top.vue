@@ -24,7 +24,7 @@
                   Previous Work
                 </a>
                 <span class="navbar-item">
-                  <a class="button is-success is-inverted" target="_blank" href="https://www.github.com/mcking3397">
+                  <a class="button" target="_blank" href="https://www.github.com/mcking3397">
                     <font-awesome-icon :icon="['fab', 'github']" class="icon"/>
                     <span>My Github</span>
                   </a>

@@ -121,3 +121,7 @@ progress::-moz-progress-bar {
 	color: #000;
 	margin-right: .25rem;
 }
+
+.navbar-item{
+	color: #fff;
+}
