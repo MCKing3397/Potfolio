@@ -6,9 +6,9 @@ import vueSmoothScroll from 'vue2-smooth-scroll'
 Vue.use(vueSmoothScroll)
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faGitHub } from '@fortawesome/free-solid-svg-icons'
+import { fagithub } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-library.add(faGitHub)
+library.add(fagithub)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
