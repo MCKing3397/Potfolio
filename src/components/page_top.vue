@@ -25,7 +25,7 @@
                 </a>
                 <span class="navbar-item">
                   <a class="button is-success is-inverted" target="_blank" href="https://www.github.com/mcking3397">
-                    <font-awesome-icon icon="github" />
+                    <font-awesome-icon icon="GitHub" />
                     <span>My Github</span>
                   </a>
                 </span>
