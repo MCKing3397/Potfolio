@@ -85,7 +85,22 @@
     ]"
     title="Other Skills"/>
 
-    <div class="has-divider has-text-centered title" id="work"><span>Previous Work</span></div>
+    <div class="has-divider has-text-centered title" id="work"><span>Things this site uses</span></div>
+    <UsedTech v-bind:usedTech="[
+    {
+      id: 1,
+      title: 'Bulma',
+      image: 'images/bulma.png',
+      link: 'https://bulma.io'
+    },
+    {
+      id: 2,
+      title: 'Netlify',
+      image: 'images/netlify.svg',
+      link: 'https://netlify.com'
+    }
+
+    ]"/>
 
 
   </div>
@@ -94,14 +109,15 @@
 <script>
 import DataBox from './components/DataBox.vue'
 import Navbar from './components/page_top.vue'
-//import Contact from './components/contact.vue'
+import UsedTech from './components/Used.vue'
 //import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
   components: {
     Navbar,
-    DataBox
+    DataBox,
+    UsedTech
     //Footer
     //Contact
   }

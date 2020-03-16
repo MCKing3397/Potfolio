@@ -1,18 +1,12 @@
 <template>
 
-  <div class="section" id="Used">
-
-
-  <div class="tile is-ancestor" id="usedDiv">
-    <div class="tile is-parent columns is-centered"> 
-      <article class="tile is-child is-4 box is-radiusless is-flex align-center">
-        <p class="title">{{ title }}</p>
-      </article>
-
-      <article class="tile is-child is-4 box is-radiusless">
-        <p class="content" v-if="msg">{{ msg }}</p>
-        <p class="content" v-else><ul><li v-for="item in skills" v-bind:key="item.id"><label v-bind:for="item.skill">{{ item.skill }}:</label><progress class="progress is-white" v-bind:id="item.skill" v-bind:value="item.level * 10" max="100"></progress></li></ul></p>
-      </article>
+  <div class="section">
+    <div class="tile is-ancestor" id="usedDiv">
+      <div class="tile is-parent columns is-centered" v-for="tech in usedTech" v-bind:key="tech.id">
+        <a href="{{tech.link}}" target="_blank"><article class="tile is-child is-4 box is-radiusless" style="background-image: {{tech.image}}">
+          <p class="content"><span class="has-text-4">{{ tech.name }}</span><span>{{tech.description}}</span></p>
+        </article>
+      </div>
     </div>
   </div>
 </template>
@@ -21,7 +15,7 @@
 export default {
   name: 'UsedTech',
   props: {
-    used: Array
+    usedTech: array
   }
 }
 </script>
