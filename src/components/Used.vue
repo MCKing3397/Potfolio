@@ -1,5 +1,4 @@
 <template>
-
   <div class="section">
     <div class="tile is-ancestor" id="usedDiv">
       <div class="tile is-parent is-4" v-for="tech in usedTech" v-bind:key="tech.id">
