@@ -15,7 +15,7 @@
 export default {
   name: 'UsedTech',
   props: {
-    usedTech: array
+    usedTech: Array
   }
 }
 </script>
