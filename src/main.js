@@ -3,7 +3,7 @@ import App from './App.vue'
 import Header from './Head.vue'
 import Footer from './Footer.vue'
 import vueSmoothScroll from 'vue2-smooth-scroll'
-import '/node_modules/bulma/css/bulma.min.css'
+import 'bulma'
 Vue.use(vueSmoothScroll)
 
 
