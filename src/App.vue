@@ -116,8 +116,8 @@ export default {
   name: 'app',
   components: {
     Navbar,
-    DataBox,
-    UsedTech
+    DataBox
+    //UsedTech
     //Footer
     //Contact
   }
