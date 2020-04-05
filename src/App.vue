@@ -109,7 +109,7 @@
 <script>
 import DataBox from './components/DataBox.vue'
 import Navbar from './components/page_top.vue'
-import UsedTech from './components/Used.vue'
+//import UsedTech from './components/Used.vue'
 //import Footer from './components/Footer.vue'
 
 export default {
