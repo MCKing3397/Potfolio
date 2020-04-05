@@ -86,7 +86,7 @@
     title="Other Skills"/>
 
     <div class="has-divider has-text-centered title" id="work"><span>Things this site uses</span></div>
-    <UsedTech v-bind:usedTech="[
+    <!--UsedTech v-bind:usedTech="[
     {
       id: 1,
       title: 'Bulma',
@@ -100,7 +100,7 @@
       link: 'https://netlify.com'
     }
 
-    ]"/>
+    ]"/-->
 
 
   </div>
