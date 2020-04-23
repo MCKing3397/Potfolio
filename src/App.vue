@@ -90,13 +90,13 @@
     {
       id: 1,
       title: 'Bulma',
-      image: 'images/bulma.png',
+      image: 'images/bulma-logo.png',
       link: 'https://bulma.io'
     },
     {
       id: 2,
       title: 'Netlify',
-      image: 'images/netlify.svg',
+      image: 'images/netlify-used.png',
       link: 'https://netlify.com'
     }
 
