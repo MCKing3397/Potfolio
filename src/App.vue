@@ -98,6 +98,12 @@
       title: 'Netlify',
       image: 'images/netlify-used.png',
       link: 'https://netlify.com'
+    },
+    {
+      id: 3,
+      title: 'Vue.js',
+      image: 'images/vue-logo.png',
+      link: 'https://vuejs.org/'
     }
 
     ]"/>
