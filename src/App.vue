@@ -111,7 +111,7 @@
 
     <div class="has-divider has-text-centered title" id="work"><span>Projects</span></div>
 
-  <codePen />
+  <codePen title="Tabs with Transition Effect" hash="vYEbLGL" url="https://codepen.io/Michael_King/pen/vYEbLGL" />
 
 
   </div>
