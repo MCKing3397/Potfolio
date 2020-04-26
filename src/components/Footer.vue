@@ -2,9 +2,9 @@
 <footer class="footer">
   <div class="columns">
     <div class="column">
-      <a href="https://bulma.io">
+      <!--a href="https://bulma.io">
         <img src="images/bulma.png">
-      </a>
+      </a-->
     </div>
     <div class="column">
     </div>
