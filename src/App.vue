@@ -111,7 +111,21 @@
 
     <div class="has-divider has-text-centered title" id="work"><span>Projects</span></div>
 
-  <codePen title="Tabs with Transition Effect" hash="vYEbLGL" url="https://codepen.io/Michael_King/pen/vYEbLGL" />
+  <codePen v-bind:pens="[
+  {
+    id: 1,
+    title: 'Tabs with Transition Effect',
+    hash: 'vYEbLGL',
+    url: 'https://codepen.io/Michael_King/pen/vYEbLGL'
+  },
+  {
+    id: 2,
+    title: 'Calculator - Complete Intro to Web Development challenge',
+    hash: 'rNVPxWe',
+    url: 'https://codepen.io/Michael_King/pen/rNVPxWe'
+  }
+  ]"
+  />
 
 
   </div>
