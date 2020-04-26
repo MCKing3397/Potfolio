@@ -96,7 +96,7 @@ progress::-moz-progress-bar {
 }
 
 .has-divider{
-	padding: 1rem;
+	padding: 2.5rem 1rem;
 	position: relative;
 }
 
