@@ -1,5 +1,5 @@
 <template>
-  <div class="section">
+  <div class="container">
     <div class="tile is-ancestor" id="usedDiv">
       <div class="tile is-parent is-4" v-for="tech in usedTech" v-bind:key="tech.id">
         <a v-bind:href="tech.link" target="_blank"><article class="tile is-child box">

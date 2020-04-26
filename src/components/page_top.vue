@@ -20,6 +20,9 @@
                 <a class="navbar-item" href="#skills" v-smooth-scroll >
                   Skills
                 </a>
+                <a class="navbar-item" href="#uses" v-smooth-scroll >
+                  Uses
+                </a>
                 <a class="navbar-item" href="#work" v-smooth-scroll >
                   Previous Work
                 </a>
