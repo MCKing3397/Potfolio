@@ -11,9 +11,6 @@
 <script>
 
 export default {
-  name: 'codePen',
-  props: {
-    usedTech: Array
-  }
+  name: 'codePen'
 }
 </script>

@@ -111,6 +111,8 @@
 
     <div class="has-divider has-text-centered title" id="work"><span>Projects</span></div>
 
+  <codePen />
+
 
   </div>
 </template>
@@ -119,6 +121,7 @@
 import DataBox from './components/DataBox.vue'
 import Navbar from './components/page_top.vue'
 import UsedTech from './components/Used.vue'
+import codePen from './components/codePen.vue'
 //import Footer from './components/Footer.vue'
 
 export default {
@@ -126,7 +129,8 @@ export default {
   components: {
     Navbar,
     DataBox,
-    UsedTech
+    UsedTech,
+    codePen
     //Footer
     //Contact
   }
