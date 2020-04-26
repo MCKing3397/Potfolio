@@ -5,7 +5,6 @@
       Tabs with Transition Effect</a> by Michael (<a href="https://codepen.io/Michael_King">@Michael_King</a>)
       on <a href="https://codepen.io">CodePen</a>.</span>
     </p>
-    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
   </div>
 </template>
 <script>
