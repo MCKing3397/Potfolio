@@ -85,7 +85,7 @@
     ]"
     title="Other Skills"/>
 
-    <div class="has-divider has-text-centered title" id="work"><span>Things this site uses</span></div>
+    <div class="has-divider has-text-centered title" id="uses"><span>Things this site uses</span></div>
     <UsedTech v-bind:usedTech="[
     {
       id: 1,
@@ -107,6 +107,9 @@
     }
 
     ]"/>
+
+
+    <div class="has-divider has-text-centered title" id="work"><span>Projects</span></div>
 
 
   </div>
