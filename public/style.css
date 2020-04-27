@@ -141,3 +141,8 @@ progress::-moz-progress-bar {
 #usedDiv figure{
 	height: 4rem;
 }
+
+.cb_embed_wrapper{
+	width: 100%;
+	height: 500px;
+}
