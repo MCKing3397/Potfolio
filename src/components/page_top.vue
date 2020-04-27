@@ -26,6 +26,9 @@
                 <a class="navbar-item" href="#work" v-smooth-scroll >
                   Previous Work
                 </a>
+                <a class="navbar-item" href="#projects" v-smooth-scroll >
+                  Projects
+                </a>
                 <span class="navbar-item">
                   <a class="button" target="_blank" href="https://www.github.com/mcking3397">
                     <font-awesome-icon :icon="['fab', 'github']" class="icon"/>
