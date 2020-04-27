@@ -1,11 +1,13 @@
 <template>
   <div class="container">
-    <VueSlickCarousel :arrows="true" :dots="true">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
-    </VueSlickCarousel>
+    <carousel>
+      <slide>
+        Slide 1 Content
+      </slide>
+      <slide>
+        Slide 2 Content
+      </slide>
+    </carousel>
   </div>
 </template>
 <script>
