@@ -167,3 +167,9 @@ progress::-moz-progress-bar {
 .is-ancestor{
 	flex-wrap: wrap;
 }
+
+.workBox{
+	background-repeat: no-repeat;
+	min-height: 250px;
+	background-size:cover;
+}
