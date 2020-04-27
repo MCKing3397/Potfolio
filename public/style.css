@@ -150,3 +150,15 @@ progress::-moz-progress-bar {
 .cp_embed_wrapper iframe{
 	height: 100%;
 }
+
+
+.VueCarousel-slide {
+  position: relative;
+  background: #FFF;
+  color: #fff;
+  font-family: Arial;
+  font-size: 24px;
+  text-align: center;
+  min-height: 100px;
+  padding: 10px;
+}
