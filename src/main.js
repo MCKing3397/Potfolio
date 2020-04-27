@@ -6,9 +6,6 @@ import vueSmoothScroll from 'vue2-smooth-scroll'
 import 'bulma/css/bulma.css'
 Vue.use(vueSmoothScroll)
 
-import VueCarousel from 'vue-carousel'
-Vue.use(VueCarousel)
-
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
