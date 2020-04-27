@@ -162,3 +162,8 @@ progress::-moz-progress-bar {
   min-height: 100px;
   padding: 10px;
 }
+
+
+.is-ancestor{
+	flex-wrap: wrap;
+}
