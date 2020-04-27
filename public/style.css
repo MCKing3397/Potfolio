@@ -169,8 +169,8 @@ progress::-moz-progress-bar {
 }
 
 #workDiv .workBox{
-	background-repeat: no-repeat;
-	min-height: 250px;
-	background-size:contain;
-	background-position: top center;
+	background-repeat: no-repeat!important;
+	min-height: 250px!important;
+	background-size:cover!important;
+	background-position: top center!important;
 }
