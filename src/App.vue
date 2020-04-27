@@ -115,37 +115,44 @@
       {
         id: 1,
         title: 'Animal and Dairy Science',
-        link: 'https://www.ads.msstate.edu'
+        link: 'https://www.ads.msstate.edu',
+        image: 'images/ads_screenshot.png'
       },
       {
         id: 2,
         title: 'Plant and Soil Sciences',
-        link: 'https://www.pss.msstate.edu'
+        link: 'https://www.pss.msstate.edu',
+        image: 'images/pss_screenshot.png'
       },
       {
         id: 3,
         title: 'Food Science, Nutrition, and Health',
-        link: 'https://www.fsnhp.msstate.edu'
+        link: 'https://www.fsnhp.msstate.edu',
+        image: 'images/fsnhp_screenshot.png'
       },
       {
         id: 4,
         title: 'Southeast Deer Study Group',
-        link: 'https://www.sedsg.com/'
+        link: 'https://www.sedsg.com/',
+        image: 'images/sedsg_screenshot.png'
       },
       {
         id: 5,
         title: 'Natural Resource Enterprises',
-        link: 'https://www.naturalresources.msstate.edu/'
+        link: 'https://www.naturalresources.msstate.edu/',
+        image: 'images/nre_screenshot.png'
       },
       {
         id: 6,
         title: 'Food Science, Nutrition, and Health',
-        link: 'https://www.fsnhp.msstate.edu'
+        link: 'https://www.fsnhp.msstate.edu',
+        image: 'images/fsnhp_screenshot.png'
       },
       {
         id: 7,
         title: 'Center for Resolving Human-Wildlife Conflicts',
-        link: 'https://www.humanwildlifeconflicts.msstate.edu/'
+        link: 'https://www.humanwildlifeconflicts.msstate.edu/',
+        image: 'images/humanWildlife_screenshot.png'
       }
 
       ]"/>
