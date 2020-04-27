@@ -144,12 +144,6 @@
       },
       {
         id: 6,
-        title: 'Food Science, Nutrition, and Health',
-        link: 'https://www.fsnhp.msstate.edu',
-        image: 'images/fsnhp_screenshot.png'
-      },
-      {
-        id: 7,
         title: 'Center for Resolving Human-Wildlife Conflicts',
         link: 'https://www.humanwildlifeconflicts.msstate.edu/',
         image: 'images/humanWildlife_screenshot.png'
