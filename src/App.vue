@@ -110,9 +110,47 @@
 
 
     <div class="has-divider has-text-centered title" id="work"><span>Sites I've worked on</span></div>
+  
+    <prevWork v-bind:sites="[
+      {
+        id: 1,
+        title: 'Animal and Dairy Science',
+        link: 'https://www.ads.msstate.edu'
+      },
+      {
+        id: 2,
+        title: 'Plant and Soil Sciences',
+        link: 'https://www.pss.msstate.edu'
+      },
+      {
+        id: 3,
+        title: 'Food Science, Nutrition, and Health',
+        link: 'https://www.fsnhp.msstate.edu'
+      },
+      {
+        id: 4,
+        title: 'Southeast Deer Study Group',
+        link: 'https://www.sedsg.com/'
+      },
+      {
+        id: 5,
+        title: 'Natural Resource Enterprises',
+        link: 'https://www.naturalresources.msstate.edu/'
+      },
+      {
+        id: 6,
+        title: 'Food Science, Nutrition, and Health',
+        link: 'https://www.fsnhp.msstate.edu'
+      },
+      {
+        id: 7,
+        title: 'Center for Resolving Human-Wildlife Conflicts',
+        link: 'https://www.humanwildlifeconflicts.msstate.edu/'
+      }
 
+      ]"/>
 
-    <div class="has-divider has-text-centered title" id="project"><span>Projects</span></div>
+    <div class="has-divider has-text-centered title" id="projects"><span>Projects</span></div>
 
     <codePen v-bind:pens="[
     {
@@ -139,6 +177,7 @@ import DataBox from './components/DataBox.vue'
 import Navbar from './components/page_top.vue'
 import UsedTech from './components/Used.vue'
 import codePen from './components/codePen.vue'
+import prevWork from './components/prevWork.vue'
 //import Footer from './components/Footer.vue'
 
 export default {
@@ -147,6 +186,7 @@ export default {
     Navbar,
     DataBox,
     UsedTech,
+    prevWork,
     codePen
     //Footer
     //Contact
