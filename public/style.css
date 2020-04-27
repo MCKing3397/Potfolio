@@ -168,8 +168,9 @@ progress::-moz-progress-bar {
 	flex-wrap: wrap;
 }
 
-.workBox{
+#workDiv .workBox{
 	background-repeat: no-repeat;
 	min-height: 250px;
-	background-size:cover;
+	background-size:contain;
+	background-position: top center;
 }
