@@ -195,4 +195,5 @@ progress::-moz-progress-bar {
     right: 0;
     text-align: center;
 	transition: 100ms linear height;
+	height: 0px;
 }
