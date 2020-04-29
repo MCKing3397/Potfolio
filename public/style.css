@@ -184,8 +184,7 @@ progress::-moz-progress-bar {
 
 .workBox:hover .overlay{
     height: 50%;
-    background: rgba(255,255,255,0.75);
-    transition: 100ms linear height
+    transition: 100ms linear height;
 }
 
 .workBox .overlay{
@@ -194,6 +193,8 @@ progress::-moz-progress-bar {
     left: 0;
     right: 0;
     text-align: center;
+    background: rgba(255,255,255,0.75);
 	transition: 100ms linear height;
-	height: 0px;
+	height: 0%;
+	overflow: hidden;
 }
