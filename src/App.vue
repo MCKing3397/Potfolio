@@ -110,8 +110,6 @@
 
 
     <div class="has-divider has-text-centered title" id="work"><span>Sites I've worked on</span></div>
-
-    <p class="has-text-centered">All sites are built using HTML, CSS and JavaScript as a basis.</p>
   
     <prevWork v-bind:sites="[
       {
