@@ -57,7 +57,7 @@
                   <p>My name is <span id="header_name" class="has-text-weight-semibold is-size-4 is-italic">Michael King</span>.</p>
                   <p>I create and design responsive websites, from the UX/design phase to the front-end, with a few back-end touches.</p>
 
-                  <p>I am an aspiring front-end developer and UX designer. I'm a recent graduate of Mississippi State University, with a degree in Business Information Systems. Formerly a student web developer for the College of Forest Resources at Mississippi State, you can currently find me creating websites for <a href="liquid-creative.com" target="_blank">Liquid Creative,</a> a marketing agency in Jackson, MS.</p>
+                  <p>I am an aspiring front-end developer and UX designer. I'm a recent graduate of Mississippi State University, with a degree in Business Information Systems. Formerly a student web developer for the College of Forest Resources at Mississippi State, you can currently find me creating websites for <a href="https://www.liquid-creative.com" target="_blank" class="has-text-light is-italic has-text-weight-medium">Liquid Creative,</a> a marketing agency in Jackson, MS.</p>
 
                   <p>Although I have experience in back-end as well as the front-end, my goal moving forward is to follow my passion as a front-end developer.</p>
                 </div>
