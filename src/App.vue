@@ -196,9 +196,9 @@ export default {
     DataBox,
     UsedTech,
     prevWork,
-    codePen
-    //Footer
+    codePen,
     Contact
+    //Footer
   }
 }
 </script>
