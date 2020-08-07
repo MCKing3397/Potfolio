@@ -175,6 +175,8 @@
     ]"
     />
 
+    <Contact />
+
   </div>
 </template>
 
@@ -184,7 +186,7 @@ import Navbar from './components/page_top.vue'
 import UsedTech from './components/Used.vue'
 import codePen from './components/codePen.vue'
 import prevWork from './components/prevWork.vue'
-//import Contact from './components/contact.vue'
+import Contact from './components/contact.vue'
 //import Footer from './components/Footer.vue'
 
 export default {
@@ -194,8 +196,8 @@ export default {
     DataBox,
     UsedTech,
     prevWork,
-    codePen
-    //Contact
+    codePen,
+    Contact
     //Footer
   }
 }
