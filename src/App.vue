@@ -175,6 +175,7 @@
     ]"
     />
 
+    <Contact />
 
   </div>
 </template>
@@ -185,6 +186,7 @@ import Navbar from './components/page_top.vue'
 import UsedTech from './components/Used.vue'
 import codePen from './components/codePen.vue'
 import prevWork from './components/prevWork.vue'
+import Contact from './components/contact.vue'
 //import Footer from './components/Footer.vue'
 
 export default {
@@ -196,7 +198,7 @@ export default {
     prevWork,
     codePen
     //Footer
-    //Contact
+    Contact
   }
 }
 </script>
