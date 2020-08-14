@@ -209,7 +209,7 @@ progress::-moz-progress-bar {
 
 .contact_form{
 	background-color: #112380;
-	margin-top: 25px; 
+	margin-top: 25px;
 }
 
 #contact{
@@ -229,4 +229,8 @@ progress::-moz-progress-bar {
 
 #contactForm label{
 	color: #fff;
+}
+
+.container{
+	padding: 0px 10px;
 }
