@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <Navbar />
-    <!--DataBox 
-    msg="My name is Michael King and I am a Front-End web developer that is interested in and enjoys working with UI/UX Design." 
+    <!--DataBox
+    msg="My name is Michael King and I am a Front-End web developer that is interested in and enjoys working with UI/UX Design."
     title="A little About Me"/-->
 
     <div class="has-divider has-text-centered title" id="skills"><span>My Skills</span></div>
@@ -36,7 +36,7 @@
     }
     ]"
     title="Code Based Skills"/>
-    
+
     <DataBox v-bind:skills="[
     {
       id: 1,
@@ -60,7 +60,7 @@
     }
     ]"
     title="Frameworks"/>
-    
+
     <DataBox v-bind:skills="[
     {
       id: 1,
@@ -110,7 +110,7 @@
 
 
     <div class="has-divider has-text-centered title" id="work"><span>Sites I've worked on</span></div>
-  
+
     <prevWork v-bind:sites="[
       {
         id: 1,
@@ -175,6 +175,8 @@
     ]"
     />
 
+    <Contact />
+
   </div>
 </template>
 
@@ -184,7 +186,7 @@ import Navbar from './components/page_top.vue'
 import UsedTech from './components/Used.vue'
 import codePen from './components/codePen.vue'
 import prevWork from './components/prevWork.vue'
-//import Contact from './components/contact.vue'
+import Contact from './components/contact.vue'
 //import Footer from './components/Footer.vue'
 
 export default {
@@ -194,8 +196,8 @@ export default {
     DataBox,
     UsedTech,
     prevWork,
-    codePen
-    //Contact
+    codePen,
+    Contact
     //Footer
   }
 }

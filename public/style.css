@@ -198,3 +198,35 @@ progress::-moz-progress-bar {
 	height: 0%;
 	overflow: hidden;
 }
+
+
+#contactForm{
+	max-width: 500px;
+	margin: auto;
+	color: #fff;
+	padding: 0px 25px;
+}
+
+.contact_form{
+	background-color: #112380;
+	margin-top: 25px; 
+}
+
+#contact{
+	z-index: 1;
+}
+
+#contact span{
+	background-color: #112380;
+	color: #fff
+}
+
+#contactForm .button{
+	background-color: #FF6900;
+	color: #fff;
+	margin: 15px
+}
+
+#contactForm label{
+	color: #fff;
+}
